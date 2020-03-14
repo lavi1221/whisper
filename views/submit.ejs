@@ -1,0 +1,18 @@
+<%- include('partials/header') %>
+<div class="container">
+ <div class="jumbotron centered">
+     <i class="fas fa-mask fa-7x mt-0 pt-0"></i>
+   <h1>Whisper</h1>
+   <p class="sec">Don't keep your secrets,share them anonymously!</p>
+   <form  action="/submit" method="post">
+     <div class=""form-group">
+       <input type="text" class="form-control text-center" name="heading" placeholder="Whats my Title">
+       <textarea class="form-control" name="whisper" placeholder="Tell me something" rows="8" cols="80"></textarea>
+      </div>
+    <button type="submit" class="btn btn-dark">Submit</button>
+    </form>
+
+ </div>
+</div>
+</div>
+<%- include('partials/footer') %>

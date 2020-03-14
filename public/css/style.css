@@ -1,0 +1,44 @@
+body{
+  background-color: #E8ECEF;
+}
+
+.centered{
+  padding-top: 150px;
+  text-align: center;
+}
+
+.secret-text{
+ padding-left: 10px;
+  text-align:left;
+  font-size:30px;
+  font-family: 'Pacifico';
+}
+
+.foot{
+  text-align: right;
+  color: grey;
+  font-size: 10px;
+}
+
+.u{
+  border: 2px solid black;
+  max-height: 600px;
+  overflow: scroll;
+}
+
+.sec{
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+.you{
+  background-color: white;
+  margin:30px;
+}
+.secret-content{
+  font-family:serif;
+  text-align: left;
+  font-size: 15px;
+  padding-left: 10px;
+}

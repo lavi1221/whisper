@@ -1,0 +1,25 @@
+<%- include('partials/header') %>
+<div class="jumbotron text-center">
+  <div class="container">
+    <i class="fas fa-mask fa-7x mt-0 pt-0"></i>
+    <h1>Whispers!</h1>
+<div class=" u">
+  <% whispers.forEach(function(item){ %>
+ <blockquote class="you">
+   <p class="secret-text">
+    <%= item.heading %> <br>
+    </p>
+    <p class="secret-content" ><%= item.content %></p>
+
+   <footer class="foot"><%= item.date %></footer>
+  </blockquote>
+  <% }) %>
+
+</div>
+  <hr>
+    <a class="btn btn-light btn-lg" href="/logout" role='button'>Log Out</a>
+    <a class="btn btn-dark btn-lg" href="/submit" role='button'>Submit a Whisper</a>
+  </div>
+</div>
+
+<%- include('partials/footer') %>
